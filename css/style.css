@@ -1,11 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html {
-  background-color: rgb(196, 108, 9);
+  background-color: rgb(116, 145, 119);
   font-family: "Titillium Web";
   font-size: 20px;
   font-weight: 300;
@@ -14,12 +14,18 @@ html {
 }
 
 header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas:
+    "logo li-blog li-about li-shop li-join"
+    "h1 h1 h1 h1";
   color: rgb(196, 108, 9);
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.575),
-      rgba(85, 85, 85, 0.575)
+      rgba(66, 66, 66, 0.801),
+      rgba(63, 63, 63, 0.801)
     ),
-    url("/img/20200308_112513.jpg");
+    url("/img/20200523_095811.jpg");
   background-size: cover;
   background-position: unset;
   height: 100vh;
@@ -28,47 +34,198 @@ header {
 
 h1 {
   font-size: 70px;
-  margin-top: 150px;
+  margin-top: 250px;
   text-align: center;
   text-shadow: 4px 4px rgba(4, 49, 0, 0.719);
 }
 
-.nav {
-  max-width: 1704px;
-}
+/* NAVIGATION */
 
 .main-nav {
+  max-width: 1704px;
+  margin-top: 55px;
   text-transform: uppercase;
+}
+
+.nav-links {
+  float: left;
+  margin-left: 100px;
+}
+
+.nav-links a {
+  margin-left: 150px;
+}
+
+.logo {
+  width: 75px;
+  border-radius: 50%;
+  float: none;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-right {
+  float: right;
   margin-right: 100px;
 }
 
-.main-nav img {
-  width: 100px;
-  border-radius: 50%;
-  margin-left: 50px;
-  margin-top: 30px;
-}
-
-.main-nav li {
-  float: right;
-  list-style-type: none;
-  margin-right: 20px;
-  margin-top: 70px;
+.nav-right a {
+  margin-right: 150px;
 }
 
 a:link,
 a:visited {
-  color: rgb(196, 108, 9);
+  color: rgb(253, 138, 6);
   text-decoration: none;
 }
 
 a:hover,
 a:active {
-  color: rgb(11, 85, 4);
+  color: rgb(30, 176, 243);
   border-bottom: 2px solid;
   transition: bottom-border 0.2s, color 0.2s;
 }
-;
+
+.li-blog {
+  grid-area: li-blog;
 }
-2s, color 0.2s;
+
+.li-about {
+  grid-area: li-about;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.li-shop {
+  grid-area: li-shop;
+}
+
+.li-join {
+  grid-area: li-join;
+}
+
+/* BODY  */
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.3fr 1.2fr 1.2fr 0.3fr;
+  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 0.8fr;
+  grid-template-areas:
+    "about about about about-img"
+    "post1-img post1 post1 post1"
+    "post2 post2 post2 post2-img"
+    "post3-img post3 post3 post3"
+    "join1-img join join join3-img"
+    "footer footer footer footer";
+  grid-gap: 4px;
+}
+
+.about {
+  background: rgba(209, 2, 2, 0.795);
+  grid-area: about;
+}
+
+.about-img {
+  /* background: rgb(165, 96, 96); */
+  grid-area: about-img;
+}
+.about-img img {
+  margin-left: 30px;
+  border-radius: 5%;
+  background-image: radial-gradient(rgb(113, 143, 117)),
+    url(/img/20200227_124348.jpg);
+}
+
+.post1 {
+  background: rgba(209, 126, 2, 0.795);
+  grid-area: post1;
+}
+
+.post2 {
+  background: rgba(52, 99, 187, 0.795);
+  grid-area: post2;
+}
+
+.post3 {
+  background: rgba(209, 188, 2, 0.795);
+  grid-area: post3;
+}
+
+.post1-img {
+  margin-right: 30px;
+  grid-area: post1-img;
+}
+
+.post1-img img {
+  margin-left: 20px;
+  border-radius: 40%;
+}
+
+.post2-img {
+  /* background: rgb(71, 76, 85); */
+  grid-area: post2-img;
+}
+
+.post2-img img {
+  margin-left: 5px;
+  border-radius: 25%;
+}
+
+.post3-img {
+  /* background: rgb(117, 115, 91); */
+  grid-area: post3-img;
+}
+
+.post3-img img {
+  margin-left: 80px;
+  border-radius: 10%;
+}
+
+.join {
+  background: rgb(2, 195, 209);
+  grid-area: join;
+}
+
+.join1-img {
+  float: left;
+  grid-area: join1-img;
+}
+
+.join2-img {
+  grid-area: join2-img;
+}
+
+.join3-img {
+  float: right;
+  grid-area: join3-img;
+}
+
+footer {
+  background: #333;
+  color: white;
+  grid-area: footer;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.5fr 0.3fr;
+    grid-template-areas:
+      "nav"
+      "about"
+      "about-img"
+      "post1"
+      "post1-img"
+      "post2"
+      "post2-img"
+      "post3"
+      "post3-img"
+      "join"
+      "footer";
+  }
 }
