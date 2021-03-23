@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(196, 108, 9);
+  font-family: "Titillium Web";
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+header {
+  color: rgb(196, 108, 9);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.575),
+      rgba(85, 85, 85, 0.575)
+    ),
+    url("/img/20200308_112513.jpg");
+  background-size: cover;
+  background-position: unset;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 150px;
+  text-align: center;
+  text-shadow: 4px 4px rgba(4, 49, 0, 0.719);
+}
+
+.nav {
+  max-width: 1704px;
+}
+
+.main-nav {
+  text-transform: uppercase;
+  margin-right: 100px;
+}
+
+.main-nav img {
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.main-nav li {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+a:link,
+a:visited {
+  color: rgb(196, 108, 9);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: rgb(11, 85, 4);
+  border-bottom: 2px solid;
+  transition: bottom-border 0.2s, color 0.2s;
+}
+;
+}
+2s, color 0.2s;
+}
