@@ -1,11 +1,12 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 html {
   background-color: rgb(116, 145, 119);
+  color: rgb(129, 129, 129);
   font-family: "Titillium Web";
   font-size: 20px;
   font-weight: 300;
@@ -22,43 +23,45 @@ header {
     "h1 h1 h1 h1";
   color: rgb(196, 108, 9);
   background-image: linear-gradient(
-      rgba(66, 66, 66, 0.801),
-      rgba(63, 63, 63, 0.801)
+      rgba(46, 46, 46, 0.801),
+      rgba(46, 46, 46, 0.801)
     ),
     url("/img/20200523_095811.jpg");
   background-size: cover;
   background-position: unset;
-  height: 100vh;
   background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
 }
 
 h1 {
   font-size: 70px;
-  margin-top: 250px;
+  margin-top: 350px;
   text-align: center;
   text-shadow: 4px 4px rgba(4, 49, 0, 0.719);
 }
 
-/* NAVIGATION */
+/* ****************** */
+/* ****** NAVI *****  */
+/* ****************** */
 
 .main-nav {
   max-width: 1704px;
   margin-top: 55px;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .nav-links {
   float: left;
-  margin-left: 100px;
+  margin-left: 300px;
 }
 
 .nav-links a {
   margin-left: 150px;
 }
 
-.logo {
-  width: 75px;
-  border-radius: 50%;
+.nav-center {
   float: none;
   position: absolute;
   left: 50%;
@@ -66,26 +69,31 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.nav-center img {
+  width: 75px;
+  border-radius: 50%;
+}
+
 .nav-right {
   float: right;
-  margin-right: 100px;
+  margin-right: 65px;
 }
 
 .nav-right a {
   margin-right: 150px;
 }
 
-a:link,
-a:visited {
+.main-nav a:link,
+.main-nav a:visited {
   color: rgb(253, 138, 6);
   text-decoration: none;
 }
 
-a:hover,
-a:active {
+.main-nav a:hover,
+.main-nav a:active {
   color: rgb(30, 176, 243);
   border-bottom: 2px solid;
-  transition: bottom-border 0.2s, color 0.2s;
+  transition: bottom-border 0.8s, color 0.3s;
 }
 
 .li-blog {
@@ -108,13 +116,15 @@ a:active {
   grid-area: li-join;
 }
 
-/* BODY  */
+/* ****************** */
+/* ****** BODY *****  */
+/* ****************** */
 
 .container {
   display: grid;
-  height: 100vh;
+  height: 200vh;
   grid-template-columns: 0.3fr 1.2fr 1.2fr 0.3fr;
-  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 0.8fr;
+  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 0.3fr;
   grid-template-areas:
     "about about about about-img"
     "post1-img post1 post1 post1"
@@ -123,10 +133,13 @@ a:active {
     "join1-img join join join3-img"
     "footer footer footer footer";
   grid-gap: 4px;
+  color: #ddd;
+  padding: 100px 150px 0 150px;
 }
 
+/* ABOUT */
+
 .about {
-  background: rgba(209, 2, 2, 0.795);
   grid-area: about;
 }
 
@@ -137,22 +150,23 @@ a:active {
 .about-img img {
   margin-left: 30px;
   border-radius: 5%;
-  background-image: radial-gradient(rgb(113, 143, 117)),
-    url(/img/20200227_124348.jpg);
+  background-image: url(/img/20200227_124348.jpg);
 }
 
+/* POSTS */
+
 .post1 {
-  background: rgba(209, 126, 2, 0.795);
+  /* background: rgba(209, 126, 2, 0.795); */
   grid-area: post1;
 }
 
 .post2 {
-  background: rgba(52, 99, 187, 0.795);
+  /* background: rgba(52, 99, 187, 0.795); */
   grid-area: post2;
 }
 
 .post3 {
-  background: rgba(209, 188, 2, 0.795);
+  /* background: rgba(209, 188, 2, 0.795); */
   grid-area: post3;
 }
 
@@ -186,6 +200,8 @@ a:active {
   border-radius: 10%;
 }
 
+/* FORM */
+
 .join {
   background: rgb(2, 195, 209);
   grid-area: join;
@@ -205,13 +221,72 @@ a:active {
   grid-area: join3-img;
 }
 
+/* ****************** */
+/* **** FOOTER *****  */
+/* ****************** */
+
 footer {
   background: #333;
-  color: white;
+  padding: 50px;
+  font-size: 80%;
+  text-align: center;
   grid-area: footer;
 }
 
+.foot a {
+  color: rgb(129, 129, 129);
+}
+.footer-nav {
+  margin-left: 300px;
+}
+
+.footer-nav a {
+  float: left;
+  margin-top: -30px;
+  margin-left: 40px;
+  font-size: 125%;
+  color: rgb(129, 129, 129);
+}
+
+.social-icons {
+  float: right;
+  margin-right: 350px;
+  margin-top: -40px;
+  font-size: 200%;
+}
+
+.social-icons a {
+  float: right;
+  margin-right: 50px;
+  transition: color 0.2s;
+}
+
+.footer-nav a:visited,
+.footer-nav a:link,
+.ion-social-instagram-outline a:link,
+.ion-social-instagram-outline a:visited,
+.ion-social-youtube-outline a:link,
+.ion-social-youtube-outline a:visited {
+  transition: color 0.5s;
+}
+
+.footer-nav a:hover {
+  color: rgb(30, 176, 243);
+}
+
+.ion-social-instagram-outline:hover {
+  color: #e95950;
+}
+
+.ion-social-youtube-outline:hover {
+  color: #e62117;
+}
+
 @media only screen and (max-width: 800px) {
+  header {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: ; */
+  }
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 0.4fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.5fr 0.3fr;
