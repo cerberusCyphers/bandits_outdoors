@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: rgb(116, 145, 119);
+  background-color: rgb(71, 107, 78);
   color: rgb(129, 129, 129);
   font-family: "Titillium Web";
   font-size: 20px;
@@ -16,17 +16,12 @@ html {
 
 header {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 4fr;
-  grid-template-areas:
-    "logo li-blog li-about li-shop li-join"
-    "h1 h1 h1 h1";
   color: rgb(196, 108, 9);
   background-image: linear-gradient(
-      rgba(46, 46, 46, 0.801),
-      rgba(46, 46, 46, 0.801)
+      rgba(46, 46, 46, 0.616),
+      rgba(46, 46, 46, 0.616)
     ),
-    url("/img/20200523_095811.jpg");
+    url("../img/20200523_095811.jpg");
   background-size: cover;
   background-position: unset;
   background-attachment: fixed;
@@ -36,9 +31,17 @@ header {
 
 h1 {
   font-size: 70px;
-  margin-top: 350px;
+  margin-top: 50px;
   text-align: center;
   text-shadow: 4px 4px rgba(4, 49, 0, 0.719);
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 /* ****************** */
@@ -46,19 +49,16 @@ h1 {
 /* ****************** */
 
 .main-nav {
-  max-width: 1704px;
-  margin-top: 55px;
+  margin: 65px;
   text-transform: uppercase;
   font-weight: 400;
 }
 
 .nav-links {
-  float: left;
-  margin-left: 300px;
-}
-
-.nav-links a {
-  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: center;
 }
 
 .nav-center {
@@ -74,15 +74,6 @@ h1 {
   border-radius: 50%;
 }
 
-.nav-right {
-  float: right;
-  margin-right: 65px;
-}
-
-.nav-right a {
-  margin-right: 150px;
-}
-
 .main-nav a:link,
 .main-nav a:visited {
   color: rgb(253, 138, 6);
@@ -96,45 +87,25 @@ h1 {
   transition: bottom-border 0.8s, color 0.3s;
 }
 
-.li-blog {
-  grid-area: li-blog;
-}
-
-.li-about {
-  grid-area: li-about;
-}
-
-.logo {
-  grid-area: logo;
-}
-
-.li-shop {
-  grid-area: li-shop;
-}
-
-.li-join {
-  grid-area: li-join;
-}
-
 /* ****************** */
 /* ****** BODY *****  */
 /* ****************** */
 
 .container {
   display: grid;
-  height: 200vh;
+  height: 250vh;
   grid-template-columns: 0.3fr 1.2fr 1.2fr 0.3fr;
-  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 0.3fr;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "about about about about-img"
     "post1-img post1 post1 post1"
     "post2 post2 post2 post2-img"
     "post3-img post3 post3 post3"
-    "join1-img join join join3-img"
-    "footer footer footer footer";
-  grid-gap: 4px;
+    "join1-img join join join2-img";
+  grid-gap: 10px;
   color: #ddd;
-  padding: 100px 150px 0 150px;
+  padding: 100px 150px 0 350px;
+  max-width: 100em;
 }
 
 /* ABOUT */
@@ -144,7 +115,6 @@ h1 {
 }
 
 .about-img {
-  /* background: rgb(165, 96, 96); */
   grid-area: about-img;
 }
 .about-img img {
@@ -156,32 +126,33 @@ h1 {
 /* POSTS */
 
 .post1 {
-  /* background: rgba(209, 126, 2, 0.795); */
+  padding-bottom: 50px;
   grid-area: post1;
 }
 
 .post2 {
-  /* background: rgba(52, 99, 187, 0.795); */
+  padding-bottom: 50px;
   grid-area: post2;
 }
 
 .post3 {
-  /* background: rgba(209, 188, 2, 0.795); */
+  padding-bottom: 50px;
   grid-area: post3;
 }
 
 .post1-img {
   margin-right: 30px;
+  padding-bottom: 50px;
   grid-area: post1-img;
 }
 
 .post1-img img {
   margin-left: 20px;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 .post2-img {
-  /* background: rgb(71, 76, 85); */
+  padding-bottom: 50px;
   grid-area: post2-img;
 }
 
@@ -191,7 +162,7 @@ h1 {
 }
 
 .post3-img {
-  /* background: rgb(117, 115, 91); */
+  padding-bottom: 50px;
   grid-area: post3-img;
 }
 
@@ -203,21 +174,14 @@ h1 {
 /* FORM */
 
 .join {
-  background: rgb(2, 195, 209);
   grid-area: join;
 }
 
 .join1-img {
-  float: left;
   grid-area: join1-img;
 }
 
 .join2-img {
-  grid-area: join2-img;
-}
-
-.join3-img {
-  float: right;
   grid-area: join3-img;
 }
 
@@ -226,38 +190,41 @@ h1 {
 /* ****************** */
 
 footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
   background: #333;
   padding: 50px;
   font-size: 80%;
-  text-align: center;
-  grid-area: footer;
 }
 
 .foot a {
   color: rgb(129, 129, 129);
 }
+
 .footer-nav {
-  margin-left: 300px;
+  float: left;
+  margin-left: -15rem;
 }
 
 .footer-nav a {
-  float: left;
-  margin-top: -30px;
-  margin-left: 40px;
+  padding: 20px;
   font-size: 125%;
   color: rgb(129, 129, 129);
 }
 
 .social-icons {
   float: right;
-  margin-right: 350px;
-  margin-top: -40px;
+  margin-right: -12rem;
   font-size: 200%;
 }
 
 .social-icons a {
-  float: right;
-  margin-right: 50px;
+  padding: 20px;
+
   transition: color 0.2s;
 }
 
@@ -282,6 +249,10 @@ footer {
   color: #e62117;
 }
 
+/* ****************** */
+/* **** QUERIES ****  */
+/* ****************** */
+
 @media only screen and (max-width: 800px) {
   header {
     grid-template-columns: 1fr;
@@ -300,7 +271,8 @@ footer {
       "post2-img"
       "post3"
       "post3-img"
+      "join1-img"
       "join"
-      "footer";
+      "join2-img";
   }
 }
