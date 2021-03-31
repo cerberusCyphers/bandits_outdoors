@@ -1,0 +1,23 @@
+{
+  "name": "bandits_outdoors",
+  "version": "1.0.0",
+  "description": "bandit site",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerberusCyphers/bandits_outdoors.git"
+  },
+  "author": "cerberus cyphers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerberusCyphers/bandits_outdoors/issues"
+  },
+  "homepage": "https://github.com/cerberusCyphers/bandits_outdoors#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}

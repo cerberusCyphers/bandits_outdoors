@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="d31cc65ae8a6a594d8734554cfbc0eda" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="296bd780fcb6760d331fb65d9691cbce">
+    <link rel="stylesheet" type="text/css" href="041dbd2b20e9c9b758c60b84d0bb86e3">
+    <link rel="stylesheet" type="text/css" href="6b54da2078bc2b47f0f419f7edef61e4">
+    <link rel="shortcut icon" type="image/x-icon" href="7a8230514ab031b9e9a9cb6df4a5f3e0">
+    <title>Bandit's Outdoor Adventures</title>
+</head>
+<body>
+    <header>
+        <div class="main-nav" id="main-nav">
+            <div class="nav-links">
+                <a class="li-blog" href="#blog">Blog</a>
+                <a class="li-about" href="#about">About</a>
+                <a class="li-photos" href="4f59ad5fda5690964681a5b8a1ba284e">Photos</a>
+                <a class="li-join" href="#join">Sign Up</a>
+            </div>
+            <div class="nav-center">
+                <img class="logo" src="e63070110472f7f475bef3cfc15d38af">
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav"><i class="ion-ios-paw"></i><i class="ion-ios-paw-outline hidden"></i>
+            <div class="logo">
+                <img class="mb-logo" src="e63070110472f7f475bef3cfc15d38af">
+            </div>
+            <div class="mobile-links">
+                <a class="mb-home" href="#">Home</a>
+                <a class="mb-about" href="#about">About</a>
+                <a class="mb-blog" href="#blog">Blog</a>
+                <a class="mb-join" href="#join">Sign Up</a>
+            </div>
+        </div>
+        <h1>Welcome to <br>Bandit's Outdoor Adventures</h1>            
+        
+    </header>
+    <div class="container" id="about">
+        <div class="about">
+            <h2>About Bandit</h2>
+            <p>Bandit is an Alusky, or Alaskan Malamute / Siberian Husky mix.  He was born in upstate Vermont towards the end of 2019.  This fun loving pup lives for his adventures.  Whether hiking trails, playing at parks, or visiting family and neighbors, Bandit is always a happy dog.  His current adventure is trying to master chasing fish in his pond without getting wet.  Good luck, buddy.</p>
+        </div>
+        <div class="about-img img"><img src="28dac08a0afe8fb15d1fc5e3f61043fa" height="200px"></div>
+        <div class="post1" id="blog"><h3>Hiking the Robert Frost Trail</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="post1-img img"><img src="50fec679c7623b1b299f6bebcf407607" height="200px"></div>
+        <div class="post2"><h3>Camping for the First Time</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="post2-img img"><img src="7aa638005b5248fd9d1e4ddb430d0d5a" height="200px"></div>
+        <div class="post3"><h3>Pumpkin Picking</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="post3-img img"><img src="30dc50a693aea66ebcf3ed5efa2b4a40" height="200px"></div>
+        <div class="join1-img img">
+            <img src="5cb657b7944521b34c75fa1446a92acb" height="300px">
+        </div>
+        <div class="ml-form join" id="join">
+            <form id="mailing-list">
+                <h3>Join the mailing list</h3>
+                <p>Put your paw print here to stay up to <br>date on all of Bandit's adventures!</p>
+                <input id="userInput" type="text" placeholder="your@email.com" required=""><br>
+                <input class="btn" type="submit">
+            </form>
+        </div>
+    </div>
+
+<footer>
+    <div class="foot">            
+        <p>Copyright © Cerberus Cyphers 2021.</p>
+        <div class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="social-icons">
+            <a href="4f59ad5fda5690964681a5b8a1ba284e"><i class="ion-social-instagram"></i></a>
+            <a href="d3fd189f9933504a8fac9fcc51340e54"><i class="ion-social-facebook"></i></a>
+            <a href="e429d87b2e34dffdbdb77cccae18699b"><i class="ion-social-youtube"></i></a>
+        </div>
+    </div>
+</footer>    
+<script src="4751496717fb40586a31ff973162c037"></script>
+</body>
+</html>
