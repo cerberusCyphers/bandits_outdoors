@@ -1,0 +1,28 @@
+'use strict';
+
+const email = document.getElementById('userInput');
+const btn = document.querySelector('.btn');
+const hamburger = document.querySelector('.hamburger');
+const mobileLinks = document.querySelector('.mobile-links');
+const mailingList = [];
+
+hamburger.addEventListener('click', function (e) {
+  if(hamburger.classList('.ion-ios-paw')
+  hamburger.classList.toggle('ion-ios-paw-outline');
+  mobileLinks.style.display = 'block';
+  ) else (
+    hamburger.classList.toggle('.ion-ios-paw-outline');
+    mobileLinks.style.display = 'none';
+  )
+});
+
+// mobileNavOpen.addEventListener('click', function (e) {
+//   mobileNavOpen.classList.add('hidden');
+//   mobileNavClosed.classList.remove('hidden');
+//   mobileLinks.style.display = 'none';
+// });
+
+btn.addEventListener('click', function (e) {
+  mailingList.push(email.value);
+  console.log('click', mailingList);
+});

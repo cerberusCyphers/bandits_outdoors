@@ -1,0 +1,26 @@
+/* @media only screen and (max-width: 1650px) {
+    .
+} */
+
+@media only screen and (max-width: 800px) {
+  header {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: ; */
+  }
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.5fr 0.3fr;
+    grid-template-areas:
+      "nav"
+      "about"
+      "about-img"
+      "post1"
+      "post1-img"
+      "post2"
+      "post2-img"
+      "post3"
+      "post3-img"
+      "join"
+      "footer";
+  }
+}

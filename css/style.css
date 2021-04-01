@@ -490,15 +490,16 @@ footer {
 	.ion-ios-paw {
 		margin-left: 20px;
 	}
+
 	.ion-ios-paw-outline {
 		margin-left: 5px;
 	}
 
-	.logo img {
+	.mlogo img {
 		width: 65px;
 		border-radius: 50%;
 		float: right;
-		margin-right: 20px;
+		margin-right: 50px;
 		margin-top: 6px;
 	}
 
