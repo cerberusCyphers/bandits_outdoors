@@ -20,7 +20,7 @@ header {
 			rgba(46, 46, 46, 0.616),
 			rgba(46, 46, 46, 0.616)
 		),
-		url('20200523_095811.13d81845.jpg');
+		url('26c95cc83e5823a976ff0da32ae509dd');
 	background-size: cover;
 	background-position: unset;
 	background-attachment: fixed;
@@ -164,7 +164,7 @@ h3 {
 .about-img img {
 	margin-left: 30px;
 	border-radius: 5%;
-	background-image: url(20200227_124348.3f851577.jpg);
+	background-image: url(56163e81e6d01375a1b2d745c879977e);
 }
 
 /* POSTS */
@@ -353,7 +353,7 @@ footer {
 				rgba(46, 46, 46, 0.616),
 				rgba(46, 46, 46, 0.616)
 			),
-			url('20200523_100207.fbbca84a.jpg');
+			url('19394493aa00f077ae4f1aad4b2c2517');
 	}
 
 	header h1 {
@@ -522,9 +522,9 @@ footer {
 
 	.logo img {
 		width: 65px;
-		border-radius: 50%;
+		border-radius: 100%;
 		float: right;
-		margin-right: 50px;
+		margin-right: 0px;
 		margin-top: 6px;
 	}
 
@@ -677,5 +677,3 @@ footer {
 		font-size: 100%;
 	}
 }
-
-/*# sourceMappingURL=index.ea68c68a.css.map */

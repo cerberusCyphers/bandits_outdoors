@@ -20,7 +20,7 @@ header {
 			rgba(46, 46, 46, 0.616),
 			rgba(46, 46, 46, 0.616)
 		),
-		url('20200523_095811.13d81845.jpg');
+		url('20200523_095811.HASH_REF_52103f104b9ab71e0965b40d13d81845.jpg');
 	background-size: cover;
 	background-position: unset;
 	background-attachment: fixed;
@@ -164,7 +164,7 @@ h3 {
 .about-img img {
 	margin-left: 30px;
 	border-radius: 5%;
-	background-image: url(20200227_124348.3f851577.jpg);
+	background-image: url(20200227_124348.HASH_REF_ebd234cd4b876178f56c8ac03f851577.jpg);
 }
 
 /* POSTS */
@@ -353,7 +353,7 @@ footer {
 				rgba(46, 46, 46, 0.616),
 				rgba(46, 46, 46, 0.616)
 			),
-			url('20200523_100207.fbbca84a.jpg');
+			url('20200523_100207.HASH_REF_d6474cdec97af16ddab52b68fbbca84a.jpg');
 	}
 
 	header h1 {
@@ -520,11 +520,11 @@ footer {
 		margin-left: 20px;
 	}
 
-	.logo img {
-		width: 65px;
-		border-radius: 50%;
+	.mb-logo img {
+		width: 50px;
+		border-radius: 100%;
 		float: right;
-		margin-right: 50px;
+		margin-right: 0px;
 		margin-top: 6px;
 	}
 
@@ -678,4 +678,4 @@ footer {
 	}
 }
 
-/*# sourceMappingURL=index.ea68c68a.css.map */
+/*# sourceMappingURL=index.HASH_REF_fd2ab90d027c36bc482ca7edea68c68a.css.map */
