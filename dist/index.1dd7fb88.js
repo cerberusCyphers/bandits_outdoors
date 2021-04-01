@@ -448,7 +448,7 @@ const email = document.getElementById('userInput');
 const btn = document.querySelector('.btn');
 const hamburger = document.querySelector('.hamburger');
 const mobileNavOpen = document.querySelector('.ion-ios-paw-outline');
-const mobileNavOpen = document.querySelector('.ion-ios-paw');
+const mobileNavClosed = document.querySelector('.ion-ios-paw');
 const mobileLinks = document.querySelector('.mobile-links');
 const mailingList = [];
 
