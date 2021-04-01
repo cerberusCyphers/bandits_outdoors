@@ -5,7 +5,7 @@
 112C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\helper-simple-access\package.json132616988125499848 0
 96C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\abortcontroller-polyfill132616988155742025 1
 109C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\resolve\test\resolver\nested_symlinks132616988000385609 1
-63C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist132616996011948751 1
+63C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist132617655558473072 1
 96C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\string.prototype.trimend132616988127509974 1
 101C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\entities\lib\maps\legacy.json121436361000000000 0
 121C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\posthtml\node_modules\dom-serializer\lib\index.js121436361000000000 0
@@ -130,7 +130,7 @@
 88C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\semver\semver.js121436361000000000 0
 103C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\string.prototype.trimstart\test132616987977759918 1
 103C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss\lib\css-syntax-error.js121436361000000000 0
-69C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\index.html132616990920412450 0
+69C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\index.html132617629730549435 0
 128C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\cssnano-util-raw-cache\node_modules\postcss\package.json132616988130730194 0
 132C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-positions\node_modules\postcss\lib\rule.js121436361000000000 0
 112C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\json-schema\draft-zyp-json-schema-03.xml129519536920000000 0
@@ -2492,7 +2492,7 @@
 134C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\regenerate-unicode-properties\Script_Extensions\Dives_Akuru.js121436361000000000 0
 87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\posthtml-parser132616988120879499 1
 124C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js121436361000000000 0
-87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\1616594370.85cb0321.ico132616995931139283 0
+87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\1616594370.85cb0321.ico132617655478415211 0
 135C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-ordered-values\node_modules\postcss\lib\previous-map.js121436361000000000 0
 117C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@nodelib\fs.stat\out\providers\async.d.ts.map121436361000000000 0
 104C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\hidden-keys.js121436361000000000 0
@@ -7170,7 +7170,7 @@
 134C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\regenerate-unicode-properties\Script_Extensions\Warang_Citi.js121436361000000000 0
 101C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\css-tree\lib\parser\create.js121436361000000000 0
 95C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\combined-stream\License121436361000000000 0
-86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.c6a3bbb1.css.map132616996011898727 0
+86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.c6a3bbb1.css.map132617655558443069 0
 92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\parse-json\readme.md131474380960000000 0
 129C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\regenerate-unicode-properties\Script_Extensions\Yezidi.js121436361000000000 0
 103C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\caniuse-lite\data\regions\US.js121436361000000000 0
@@ -7532,7 +7532,7 @@
 99C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\hash.js\lib\hash\sha\224.js121436361000000000 0
 130C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-modules-values\node_modules\color-convert\route.js121436361000000000 0
 100C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\readable-stream\package.json132616988121809569 0
-82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.662a9204.css132616996011838723 0
+82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.662a9204.css132617655558373059 0
 92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash\_baseWhile.js121436361000000000 0
 112C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\readable-stream\lib\_stream_transform.js121436361000000000 0
 134C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-modules-local-by-default\node_modules\has-flag\license131408182550000000 0
@@ -9083,7 +9083,7 @@
 139C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-unicode\node_modules\postcss-value-parser\LICENSE121436361000000000 0
 92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash\fp\mapKeys.js121436361000000000 0
 144C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-unicode\node_modules\postcss-value-parser\package.json132616988135610548 0
-72C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\css\style.css132616991782110375 0
+72C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\css\style.css132617632193362624 0
 141C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-unicode\node_modules\postcss-value-parser\README.md121436361000000000 0
 125C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js-compat\node_modules\semver\functions\minor.js121436361000000000 0
 112C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@parcel\reporter-cli\src\bundleReport.js121436361000000000 0
@@ -9492,7 +9492,7 @@
 97C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\es\array\index.js121436361000000000 0
 128C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-string\node_modules\chalk\node_modules132616988084699417 1
 128C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-string\node_modules\chalk\templates.js121436361000000000 0
-74C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.html132616996011838723 0
+74C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.html132617655558373059 0
 121C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-string\node_modules\chalk\types132616988003455832 1
 143C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-string\node_modules\chalk\node_modules\supports-color132616988137530699 1
 85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash\pad.js121436361000000000 0
@@ -10016,6 +10016,7 @@
 135C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-charset\node_modules\postcss\lib\warn-once.js121436361000000000 0
 92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss\package.json132616988130630194 0
 123C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\caniuse-lite\data\features\background-attachment.js121436361000000000 0
+82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.bb3bba3c.css132617655558393051 0
 118C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\ionicons-2.0.1\png\512\ios7-pricetags-outline.png132610697707770247 0
 126C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-modules\node_modules\postcss-modules-scope\src132616987964318933 1
 134C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-normalize-charset\node_modules\postcss\docs\guidelines132616987988110669 1
@@ -10875,7 +10876,7 @@
 103C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\README.md121436361000000000 0
 96C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash.memoize\README.md131155831940000000 0
 120C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\node_modules\color-convert132616988139640868 1
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200523_095811.51a7d460.jpg132616995936809697 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200523_095811.51a7d460.jpg132617655479340141 0
 114C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\node_modules\postcss132616988129420109 1
 121C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\node_modules\supports-color132616988139590852 1
 93C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\glob-parent\README.md121436361000000000 0
@@ -10929,7 +10930,6 @@
 126C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\node_modules\postcss\lib\rule.js121436361000000000 0
 105C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\jsdom\lib\jsdom\living\domparsing132616987973149569 1
 107C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\css-selector-tokenizer\lib\parse.js121436361000000000 0
-86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.763cff95.css.map132616996011898727 0
 86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash\cond.js121436361000000000 0
 133C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\postcss-minify-params\node_modules\postcss\lib\stringifier.js121436361000000000 0
 87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\ion-icons\ios-flower.svg132610927597957344 0
@@ -13817,7 +13817,7 @@
 87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\lodash\fp\__.js121436361000000000 0
 97C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\loader-utils\CHANGELOG.md121436361000000000 0
 88C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\loader-utils\lib132616988018036890 1
-85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.7f8a0604.svg132616995932049341 0
+85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.7f8a0604.svg132617655479144126 0
 92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\loader-utils\LICENSE121436361000000000 0
 98C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\ionicons-2.0.1\src\female.svg132610697899213974 0
 105C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\loader-utils\lib\getHashDigest.js121436361000000000 0
@@ -14580,7 +14580,7 @@
 96C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\is-interactive\readme.md121436361000000000 0
 120C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\icss-utils\node_modules\postcss\lib\stringify.js121436361000000000 0
 115C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\es\object\get-own-property-names.js121436361000000000 0
-81C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.493ad814.js132616996011838723 0
+81C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.493ad814.js132617655558393051 0
 89C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\is-html\readme.md131314508780000000 0
 87C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\is-glob\LICENSE121436361000000000 0
 107C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\is-generator-function\.eslintignore121436361000000000 0
@@ -17135,7 +17135,7 @@
 129C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\csso\node_modules\css-tree\lib\syntax\node\Declaration.js121436361000000000 0
 127C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\csso\node_modules\css-tree\lib\syntax\node\Dimension.js121436361000000000 0
 126C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js121436361000000000 0
-85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.493ad814.js.map132616996011928770 0
+85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.493ad814.js.map132617655558453067 0
 128C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\csso\node_modules\css-tree\lib\syntax\node\IdSelector.js121436361000000000 0
 121C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\csso\node_modules\css-tree\lib\syntax\node\Nth.js121436361000000000 0
 111C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\cssnano-util-get-arguments\CHANGELOG.md131751141040000000 0
@@ -18229,7 +18229,7 @@
 105C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\array-buffer.js121436361000000000 0
 118C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\ionicons-2.0.1\png\512\social-youtube-outline.png132610697797935187 0
 118C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\array-iteration-from-last.js121436361000000000 0
-85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.bb52c3b2.ttf132616995931369293 0
+85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.bb52c3b2.ttf132617655478488154 0
 108C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\array-iteration.js121436361000000000 0
 125C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\array-method-has-species-support.js121436361000000000 0
 113C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\core-js\internals\array-species-create.js121436361000000000 0
@@ -21599,6 +21599,7 @@
 113C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-classes\README.md121012626000000000 0
 116C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-classes\lib\index.js121012626000000000 0
 125C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-classes\lib\transformClass.js121012626000000000 0
+86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.bb3bba3c.css.map132617655558443069 0
 117C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-block-scoping\LICENSE121012626000000000 0
 122C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-block-scoping\package.json132616988116809184 0
 119C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\node_modules\@babel\plugin-transform-block-scoping\README.md121012626000000000 0
@@ -22438,7 +22439,7 @@
 117C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\ionicons-2.0.1\src\social-foursquare-outline.svg132610698092302548 0
 102C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\_ionicons_svg_logo-javascript.svg132610927597007251 0
 100C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\_ionicons_svg_logo-linkedin.svg132610927597017350 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200523_100207.f6066b5b.jpg132616995932799404 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200523_100207.f6066b5b.jpg132617655483790336 0
 99C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\_ionicons_svg_logo-twitter.svg132610927597047261 0
 99C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\_ionicons_svg_logo-youtube.svg132610927597047261 0
 94C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\img\icons\ionicons-2.0.1\.gitignore132610697593684485 0
@@ -23160,16 +23161,15 @@
 77C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\fonts\ionicons.eot132610697601945129 0
 77C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\fonts\ionicons.ttf132610697602765161 0
 78C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\fonts\ionicons.woff132610697603075202 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200227_124348.0fd9580d.jpg132616995931329301 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200308_112513.ab581c78.jpg132616995949066251 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200522_105647.44e7cd64.jpg132616995932259386 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200808_111036.1a269165.jpg132616995934119497 0
-92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20210119_150649.269743d2.jpg132616995933729477 0
-97C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\FB_IMG_1599518691812.37149e8b.jpg132616995931899341 0
-86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.662a9204.css.map132616996011898727 0
-82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.763cff95.css132616996011838723 0
-82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.c6a3bbb1.css132616996011838723 0
-86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.19495d4a.woff132616995931369293 0
-85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.b1831550.eot132616995931359293 0
-81C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\logo.d4a22b58.jpg132616995931129275 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200227_124348.0fd9580d.jpg132617655478628168 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200308_112513.ab581c78.jpg132617655505517659 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200522_105647.44e7cd64.jpg132617655479180124 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20200808_111036.1a269165.jpg132617655480613998 0
+92C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\20210119_150649.269743d2.jpg132617655480264151 0
+97C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\FB_IMG_1599518691812.37149e8b.jpg132617655478918197 0
+86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.662a9204.css.map132617655558443069 0
+82C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\index.c6a3bbb1.css132617655558383057 0
+86C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.19495d4a.woff132617655478468149 0
+85C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\ionicons.b1831550.eot132617655478488154 0
+81C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\dist\logo.d4a22b58.jpg132617655478355210 0
 79C:\Users\craig\Documents\Cerberus Cyphers\bandits_outdoors\css\ionicons.min.css132610660167394914 0
