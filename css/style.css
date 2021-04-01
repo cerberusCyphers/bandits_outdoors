@@ -43,6 +43,10 @@ h3 {
 	font-size: 30px;
 }
 
+.hidden {
+	display: none;
+}
+
 /* ****************** */
 /* ****** NAVI *****  */
 /* ****************** */
@@ -101,7 +105,7 @@ h3 {
 	display: none;
 }
 .mobile-links {
-	display: none;
+	display: block;
 }
 
 .mobile-nav a:link,
@@ -366,7 +370,7 @@ footer {
 	.container {
 		margin: 0;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+		grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
 		grid-gap: 50px;
 		grid-template-areas:
 			'about about'
@@ -467,7 +471,7 @@ footer {
 
 	.mobile-links {
 		margin-top: 80px;
-		margin-left: 80px;
+		margin-left: 10px;
 		width: 100px;
 	}
 
@@ -479,7 +483,7 @@ footer {
 		padding: 0;
 		float: left;
 		width: 100px;
-		margin-left: 25px;
+		margin-left: 20px;
 	}
 
 	.mobile-nav i {
@@ -487,11 +491,8 @@ footer {
 		float: left;
 	}
 
-	.ion-ios-paw {
+	.hamburger {
 		margin-left: 20px;
-	}
-	.ion-ios-paw-outline {
-		margin-left: 5px;
 	}
 
 	.logo img {
@@ -520,6 +521,10 @@ footer {
 		align-items: center;
 		justify-items: center;
 		font-size: 15px;
+	}
+
+	.container p {
+		font-size: 13px;
 	}
 
 	.post3-img img {
@@ -551,9 +556,14 @@ footer {
 }
 
 @media only screen and (max-width: 560px) {
+	header h1 {
+		padding-top: 400px;
+	}
+
 	.mobile-links {
 		margin-left: 5px;
 	}
+
 	.container {
 		padding: 75px 20px 0 20px;
 	}
@@ -571,6 +581,18 @@ footer {
 }
 
 @media only screen and (max-width: 499px) {
+	header h1 {
+		padding-top: 350px;
+	}
+
+	.container h2 {
+		font-size: 13px;
+	}
+
+	.container p {
+		font-size: 11px;
+	}
+
 	.mobile-links {
 		margin-left: 0;
 	}
@@ -601,6 +623,9 @@ footer {
 }
 
 @media only screen and (max-width: 394px) {
+	header h1 {
+		padding-top: 70%;
+	}
 	.container {
 		padding: 75px 5px 0 5px;
 	}

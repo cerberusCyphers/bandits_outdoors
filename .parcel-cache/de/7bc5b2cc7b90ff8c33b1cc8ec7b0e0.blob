@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="828ba1760c0698eb71800d96e1c9100d" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="71a50e4984fe5e666e9515e6a530da2a">
+    <link rel="stylesheet" type="text/css" href="66390022ffe585378bb10083bbff3dbb">
+    <link rel="stylesheet" type="text/css" href="f89a749b4ffc8ed6ed855bb666bc286b">
+    <link rel="shortcut icon" type="image/x-icon" href="3506abe49ba21abcd409d919ffdfc376">
+    <title>Bandit's Outdoor Adventures</title>
+</head>
+<body>
+    <header>
+        <div class="main-nav" id="main-nav">
+            <div class="nav-links">
+                <a class="li-blog" href="#blog">Blog</a>
+                <a class="li-about" href="#about">About</a>
+                <a class="li-photos" href="8ae37c2e453768d3129893c3ced09711">Photos</a>
+                <a class="li-join" href="#join">Sign Up</a>
+            </div>
+            <div class="nav-center">
+                <img class="logo" src="0c078d34246baa3a00633ffc896f2982">
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav"><i class="ion-ios-paw"></i><i class="ion-ios-paw-outline hidden"></i>
+            <div class="logo">
+                <img class="mb-logo" src="0c078d34246baa3a00633ffc896f2982">
+            </div>
+            <div class="mobile-links">
+                <a class="mb-home" href="#">Home</a>
+                <a class="mb-about" href="#about">About</a>
+                <a class="mb-blog" href="#blog">Blog</a>
+                <a class="mb-join" href="#join">Sign Up</a>
+            </div>
+        </div>
+        <h1>Welcome to <br>Bandit's Outdoor Adventures</h1>            
+        
+    </header>
+    <div class="container" id="about">
+        <div class="about">
+            <h2>About Bandit</h2>
+            <p>Bandit is an Alusky, or Alaskan Malamute / Siberian Husky mix.  He was born in upstate Vermont towards the end of 2019.  This fun loving pup lives for his adventures.  Whether hiking trails, playing at parks, or visiting family and neighbors, Bandit is always a happy dog.  His current adventure is trying to master chasing fish in his pond without getting wet.  Good luck, buddy.</p>
+        </div>
+        <div class="about-img img"><img src="8928377d937fd519eb658b36ce6deb77" height="200px"></div>
+        <div class="post1" id="blog"><h3>Hiking the Robert Frost Trail</h3><p>
+            March 2021 - Back to the Robert Frost Trail!  The snow has melted and spring has sprung.  The trees are budding and the rivers are rushing.  The trail offers a great 4 mile round trip hike.  It's not too hot, but warm enough.  Thankfully, there are streams that feed the lake at the destination, which are perfect for a cold drink and a cooling dip.  Bandit was fortunate enough to meet some new friends on trail.  What fun to run into nice people and happy pups!  Arriving at the lake, a well deserved splash around is in order before returning back to the trailhead.  The nice thing about this trail is there are multiple paths, so not all the same ground needs to be retread.  It's awesome for hiking season to be back, after a long snowy winter.  More good times are ahead!</p></div>
+        <div class="post1-img img"><img src="9b2e89caed6ab5de4a376e802e07e0aa" height="200px"></div>
+        <div class="post2"><h3>Camping for the First Time</h3><p>August 2020 - Bandit's first camping trip was so much fun!  Camp was set up in the Adirondack region of beautiful upstate New York.  With access to flowing streams, scenic hiking trails, and picturesque ponds, Bandit loved taking in all our camp had to offer.  As night fell and the campfire grew, he got to settle down and enjoy some kibble with tasty hamburger topper.  Following a belly filling meal and a couple campfire songs, it was time to turn in. With a tent that was far larger than needed, Bandit had plenty of room to try all differnt sleeping positions throughout the night.  As the sun was rising, breakfast was on his mind and once prepared, was delicious.  Bacon in the woods is always a win!  After a trek through the surrounding area, it was sadly time to pack it up and head back home.  Luckily, the wait for the next camping experience will not be too long.</p></div>
+        <div class="post2-img img"><img src="2768571d7394d643802b7e055e2cea53" height="200px"></div>
+        <div class="post3"><h3>Pumpkin Picking</h3><p>
+            October 2020 - Autumn is in the air.  It's a great time of year to visit family and partake in activities of the season.  This time Bandit ventures to Pop's, with the not yet known advantage of picking fresh pumpkins in time for Halloween.  This is another first for Bandit.  He is a bit more interested in playing with the loose cut lengths of the stems and chasing chipmunks in the area.  There is time for a good jog through the field and a short exploration into the woods.  After a nice lunch it is time to hit the road back home.  Nap time for Bandit.</p>></div>
+        <div class="post3-img img"><img src="abb8f43f2cbdd4913d3aa34db1fabad1" height="200px"></div>
+        <div class="join1-img img">
+            <img src="33fa8fe6e97e27d5db2a79044541261d" height="300px">
+        </div>
+        <div class="ml-form join" id="join">
+            <form id="mailing-list">
+                <h3>Join the mailing list</h3>
+                <p>Put your paw print here to stay up to <br>date on all of Bandit's adventures!</p>
+                <input id="userInput" type="text" placeholder="your@email.com" required=""><br>
+                <input class="btn" type="submit">
+            </form>
+        </div>
+    </div>
+
+<footer>
+    <div class="foot">            
+        <p>Copyright © Cerberus Cyphers 2021.</p>
+        <div class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="social-icons">
+            <a href="8ae37c2e453768d3129893c3ced09711"><i class="ion-social-instagram"></i></a>
+            <a href="77b84103f3dcabeda70defbe986fc8c9"><i class="ion-social-facebook"></i></a>
+            <a href="7ab17a50647b08bbc8bd439702dfa29b"><i class="ion-social-youtube"></i></a>
+        </div>
+    </div>
+</footer>    
+<script src="bae3346e9cdc293b13f0bd9f60962ced"></script>
+</body>
+</html>
