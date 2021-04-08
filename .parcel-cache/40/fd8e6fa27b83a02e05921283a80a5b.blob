@@ -460,7 +460,7 @@ btn.addEventListener('click', function (e) {
   e.preventDefault();
   mailingList.push(email.value);
   console.log('click', mailingList);
-  _sweetalertDefault.default('Thanks for joining!', 'Your email has been added.');
+  _sweetalertDefault.default('Thanks for joining!', 'Your email has been added.', 'OK');
 });
 
 },{"sweetalert":"4nmcs","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4nmcs":[function(require,module,exports) {
@@ -1775,4 +1775,4 @@ exports.export = function (dest, destName, get) {
 };
 },{}]},["48KVj","7nHQo"], "7nHQo", "parcelRequire9c57")
 
-//# sourceMappingURL=index.1dd7fb88.js.map
+//# sourceMappingURL=index.HASH_REF_afb742f2e085b5374b064e171dd7fb88.js.map

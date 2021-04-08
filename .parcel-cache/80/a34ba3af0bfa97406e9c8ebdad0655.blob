@@ -1,2 +1,0 @@
-@media only screen and (max-width:800px){.container,header{grid-template-columns:1fr}.container{grid-template-rows:.4fr .4fr 1fr .7fr .7fr .7fr .7fr .7fr .7fr .5fr .3fr;grid-template-areas:"nav" "about" "about-img" "post1" "post1-img" "post2" "post2-img" "post3" "post3-img" "join" "footer"}}
-/*# sourceMappingURL=index.HASH_REF_f58cd956237c8d5d265c1bb3f447a941.css.map */

@@ -443,9 +443,7 @@ id) /*: string*/
 
 },{}],"7nHQo":[function(require,module,exports) {
 "use strict";
-var _sweetalert = require('sweetalert');
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-var _sweetalertDefault = _parcelHelpers.interopDefault(_sweetalert);
+require('sweetalert');
 const email = document.getElementById('userInput');
 const btn = document.querySelector('.btn');
 const hamburger = document.querySelector('.hamburger');
@@ -457,13 +455,11 @@ hamburger.addEventListener('click', function (e) {
   mobileLinks.classList.toggle('hidden');
 });
 btn.addEventListener('click', function (e) {
-  e.preventDefault();
   mailingList.push(email.value);
   console.log('click', mailingList);
-  _sweetalertDefault.default('Thanks for joining!', 'Your email has been added.');
 });
 
-},{"sweetalert":"4nmcs","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"4nmcs":[function(require,module,exports) {
+},{"sweetalert":"4nmcs"}],"4nmcs":[function(require,module,exports) {
 var define;
 !(function (t, e) {
   "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define([], e) : "object" == typeof exports ? exports.swal = e() : t.swal = e();
@@ -1731,48 +1727,6 @@ var define;
   }]);
 });
 
-},{}],"5gA8y":[function(require,module,exports) {
-"use strict";
-
-exports.interopDefault = function (a) {
-  return a && a.__esModule ? a : {
-    default: a
-  };
-};
-
-exports.defineInteropFlag = function (a) {
-  Object.defineProperty(a, '__esModule', {
-    value: true
-  });
-};
-
-exports.exportAll = function (source, dest) {
-  Object.keys(source).forEach(function (key) {
-    if (key === 'default' || key === '__esModule') {
-      return;
-    } // Skip duplicate re-exports when they have the same value.
-
-
-    if (key in dest && dest[key] === source[key]) {
-      return;
-    }
-
-    Object.defineProperty(dest, key, {
-      enumerable: true,
-      get: function () {
-        return source[key];
-      }
-    });
-  });
-  return dest;
-};
-
-exports.export = function (dest, destName, get) {
-  Object.defineProperty(dest, destName, {
-    enumerable: true,
-    get: get
-  });
-};
 },{}]},["48KVj","7nHQo"], "7nHQo", "parcelRequire9c57")
 
-//# sourceMappingURL=index.1dd7fb88.js.map
+//# sourceMappingURL=index.HASH_REF_afb742f2e085b5374b064e171dd7fb88.js.map

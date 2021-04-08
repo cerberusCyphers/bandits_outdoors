@@ -19,5 +19,8 @@
   "homepage": "https://github.com/cerberusCyphers/bandits_outdoors#readme",
   "devDependencies": {
     "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "sweetalert": "^2.1.2"
   }
 }
