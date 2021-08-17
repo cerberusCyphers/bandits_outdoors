@@ -17,10 +17,9 @@
     "url": "https://github.com/cerberusCyphers/bandits_outdoors/issues"
   },
   "homepage": "https://github.com/cerberusCyphers/bandits_outdoors#readme",
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
-  },
+  "devDependencies": {},
   "dependencies": {
+    "node": "^16.6.1",
     "sweetalert": "^2.1.2"
   }
 }

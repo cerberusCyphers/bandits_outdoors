@@ -5,8 +5,8 @@
 }
 
 html {
-	background-color: #068d3d;
-	color: rgb(129, 129, 129);
+	background-color: hsl(143, 64%, 99%);
+	color: hsl(39, 90%, 50%);
 	font-family: 'Titillium Web';
 	font-size: 20px;
 	font-weight: 300;
@@ -37,10 +37,12 @@ header h1 {
 
 h2 {
 	font-size: 40px;
+	color: hsl(144, 92%, 29%);
 }
 
 h3 {
 	font-size: 30px;
+	color: hsl(144, 92%, 29%);
 }
 
 .hidden {
@@ -86,13 +88,13 @@ h3 {
 
 .main-nav a:link,
 .main-nav a:visited {
-	color: rgb(253, 138, 6);
+	color: hsl(32, 98%, 51%);
 	text-decoration: none;
 }
 
 .main-nav a:hover,
 .main-nav a:active {
-	color: #068d3d;
+	color: hsl(32, 98%, 92%);
 	border-bottom: 2px solid;
 	transition: bottom-border 0.8s, color 0.3s;
 }
@@ -110,7 +112,7 @@ h3 {
 
 .mobile-nav a:link,
 .mobile-nav a:visited {
-	color: rgb(253, 138, 6);
+	color: hsl(32, 98%, 51%);
 	text-decoration: none;
 }
 
@@ -137,7 +139,6 @@ h3 {
 		'post3-img post3 post3'
 		'join join join1-img';
 	grid-gap: 10px;
-	color: #ddd;
 	padding: 100px 150px 0 150px;
 	max-width: 100em;
 	align-items: center;
@@ -204,6 +205,7 @@ h3 {
 /* FORM */
 
 .join {
+	width: 100%;
 	background-color: beige;
 	color: #333;
 	padding-left: 50px;
@@ -211,6 +213,7 @@ h3 {
 	border: 2px solid #333;
 	border-radius: 4px 4px;
 	grid-area: join;
+	grid-column: 2 / 3;
 }
 
 .join1-img {
@@ -229,7 +232,6 @@ h3 {
 .btn {
 	padding: 3px;
 	margin-top: 20px;
-	float: left;
 	background-color: chocolate;
 	border: none;
 	border-radius: 10px;
